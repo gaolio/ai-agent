@@ -1,39 +1,11 @@
+.venv/
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
 .DS_Store
-node_modules/
+data/
 dist/
-trunk/
-/training
-/production
-sonar-project.properties
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-package-lock.json
-tests/**/coverage/
-# Editor directories and files
-.scannerwork
-.idea
-.vscode
-.scannerwork
-.lingma
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-
-.nvmrc
-
-coverage/
-
-# AI process artifacts / docs (local only)
-docx/
-
-# Cursor local hook state
-.cursor/hooks/state/
-validation-reports/
-.verify/
-.yapi.local.json
-settings.local.json 
-
+build/
 .vscode

@@ -7,7 +7,11 @@ authors = [
     { name = "Robot", email = "gaoli@flashexpress.onaliyun.com" }
 ]
 requires-python = ">=3.16"
-dependencies = []
+dependencies = [
+    "fastapi>=0.165.0",
+    "python-dotenv>=1.2.4",
+    "uvicorn>=0.54.0",
+]
 
 [project.scripts]
 rag-demo = "rag_demo:main"
